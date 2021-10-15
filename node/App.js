@@ -5,7 +5,7 @@ const mysql = require('mysql')
 const cors = require('cors')
 app.use(cors())
 
-app.use(express.urlencoded({ // leidžia gauti duomenis iš JSON
+app.use(express.urlencoded({ // leidžia susisiejti/gauti duomenis iš JSON
     extended: true
 }))
 app.use(express.json());
